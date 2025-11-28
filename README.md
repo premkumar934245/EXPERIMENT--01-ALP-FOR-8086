@@ -80,7 +80,8 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
+## Addition  of 8 bit ALP :
+
 ```
 MOV CL,00
 MOV AX,[3001H]
@@ -96,6 +97,7 @@ HLT
 ## Output:
 <img width="1694" height="964" alt="Screenshot 2025-08-22 153936" src="https://github.com/user-attachments/assets/079a6944-ccf3-4789-8d57-173ddaa4e8e1" />
 ## Subtraction   of 8 bit numbers  ALP :
+
 ```
  MOV CL,00
 MOV AX,[3001H]
@@ -113,6 +115,7 @@ HLT
 ## Output:
 <img width="1685" height="968" alt="Screenshot 2025-08-22 160749" src="https://github.com/user-attachments/assets/07d5a705-6ba7-490f-a45a-0563b1120649" />
 ## Multiplication alp:
+
 ```
 MOV CL,00
 MOV AX,[3001H]
@@ -125,6 +128,7 @@ HLT
 ## Output:
 <img width="1707" height="974" alt="Screenshot 2025-08-22 162133" src="https://github.com/user-attachments/assets/be481c3c-dd74-4b79-a513-fe4f5129d611" />
 ## Division alp:
+
 ```
 
 MOV CL,00
@@ -139,6 +143,7 @@ HLT
 <img width="1749" height="983" alt="Screenshot 2025-08-22 162634" src="https://github.com/user-attachments/assets/ebd987a7-0eb1-4c62-9f4f-905cf66a289b" />
 ## LOGICAL OPERATOR:
 ## AND OPERATOR:
+
 ```
 MOV AX,[3001H]
 MOV BX,[3003H]
@@ -149,6 +154,7 @@ HLT
 ## OUTPUT:
 <img width="1698" height="981" alt="Screenshot 2025-08-29 153113" src="https://github.com/user-attachments/assets/9d9a752f-c139-4425-b1b8-73d726610b3e" />
 ## OR OPERATOR:
+
 ```
 MOV AX,[3001H]
 MOV BX,[3003H]
@@ -170,6 +176,7 @@ HLT
 ## OUTPUT:
 <img width="1700" height="970" alt="Screenshot 2025-08-29 153430" src="https://github.com/user-attachments/assets/c96b4e55-aa9a-40f6-9edf-00875a91922d" />
 ## NAND OPERATOR:
+
 ```
 
 MOV AX,[3001H]
@@ -182,6 +189,7 @@ HLT
 ## OUTPUT:
 <img width="1692" height="968" alt="Screenshot 2025-08-29 153524" src="https://github.com/user-attachments/assets/dad8a18b-13b4-43c4-892b-da46a26ff1b7" />
 ## NOT OPERATOR:
+
 ```
 MOV AX,[3001H]
 NOT AX
@@ -191,6 +199,7 @@ HLT
 ## OUTPUT:
 <img width="1727" height="974" alt="Screenshot 2025-08-29 154426" src="https://github.com/user-attachments/assets/29a39f03-225a-451e-a006-cb73274a6354" />
 ## XOR OPERATOR:
+
 ```
 MOV AX,[3001H]
 MOV BX,[3003H]
